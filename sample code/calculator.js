@@ -1,30 +1,30 @@
-// class Calculator{
-//     addition(a, b){
-//         return a + b
-//     }
-//     subtraction(a, b){
-//         return a - b
-//     }
-//     multiply(a, b){
-//         return a * b
-//     }
-//     division(a, b){
-//         return a / b
-//     }
-// }
-// const calc = new Calculator();
+class Calculator{
+    addition(a, b){
+        return a + b
+    }
+    subtraction(a, b){
+        return a - b
+    }
+    multiply(a, b){
+        return a * b
+    }
+    division(a, b){
+        return a / b
+    }
+}
+const calc = new Calculator();
 
-// const add = calc.addition(10, 2);
-// console.log(add);
+const add = calc.addition(10, 2);
+console.log(add);
 
-// const sub = calc.subtraction(10, 2);
-// console.log(sub);
+const sub = calc.subtraction(10, 2);
+console.log(sub);
 
-// const mul = calc.multiply(10, 2);
-// console.log(mul);
+const mul = calc.multiply(10, 2);
+console.log(mul);
 
-// const div = calc.division(10, 2);
-// console.log(div);
+const div = calc.division(10, 2);
+console.log(div);
 
 // class Person{
 //     name = 'Sam'

@@ -15,6 +15,9 @@ const rect1 = new Rectangle(10, 6);
 const rect2 = new Rectangle(20, 10);
 const rect3 = new Rectangle(8, 3);
 
+rect1.width = 20;
+rect1.height = 20;
+
 const minRect = rect1.area();
 console.log(minRect);
 rect1.rectInfo()
