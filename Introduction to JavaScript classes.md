@@ -2,11 +2,11 @@
 
 ### Introduction
 
-JavaScript classes gives JavaScript developers the power to organize and structure code in an object-oriented manner, classes help to create reusable, modular code that is easier to understand and maintain. On this blog post, am going to walk you through how to create and use classes in JavaScript.
+JavaScript classes gives JavaScript developers the power to organize and structure code in an object-oriented manner, classes help to create reusable, modular code that is easier to understand and maintain. On this blog post, I'm going to walk you through how to create and use classes in JavaScript.
 
 ### What is JavaScript class
 
-JavaScript classes are special type of function. They serves as a template for creating an object. In short JavaScript classes are nothing but another way of writing a function. We can think of a class as the sketch or plan of a house which contains how various sections of the house can be build.
+JavaScript classes are special type of function, they serve as a template for creating an object. In short JavaScript classes are nothing but another way of writing a function. We can think of a class as the sketch or plan of a house which contains how various sections of the house can be build.
 
 ### Syntax
 
@@ -39,8 +39,6 @@ For the sake of brevity, we will be sticking to the declared type throughout thi
 
 A class can be created using the ``class`` keyword followed by a given class name, then a opening and closing curly braces { }
 
-
-
 > For best practices the first letter of a class must begin with an uppercase 
 
 ### Class Body
@@ -62,7 +60,7 @@ class Person { // creates a new class named 'Person'
 } // end of class body 
 ```
 
-In the next section we are going to take a deep look on all the class member and how they work, but before that, let verify that class are just special function, from previous sample code.
+In the next section we are going to take a deep look on all the class member and how they work, but before that, let's verify that class are just special function, from previous sample code.
 
 ```javascript
 console.log(typeof Person) // function
@@ -70,7 +68,9 @@ console.log(typeof Person) // function
 
 ### Constructor
 
-Constructor are ***special method*** defined within a class. Constructor are just method given the name ``constructor`` . There can only be one constructor method within a class. If there are more than one ``constructor`` a syntax error is thrown. ``constructor`` method is use to initialize or hold object properties of that class. `constructor`  is called automatically when a new instance of a class is created using the `new` keyword.
+`constructor` are ***special method*** defined within a class which are use for creating and initializing object instance of that class. Constructor are just method given the name ``constructor`` . The `constructor` method is use to initialize or hold object properties of that class. 
+
+There can only be one constructor method within a class. If there are more than one ``constructor`` a syntax error is thrown. `constructor` method  is called automatically when a new instance of a class is created using the `new` keyword.
 
 **Syntax**
 
@@ -118,6 +118,7 @@ class Rectangle{
     rectInfo(){
         console.log(`Rectangle is ${this.width}x${this.height} dimension with ${this.area()} area`);
     }
+}
 const rect1 = new Rectangle(10, 6);
 
 console.log(rect1.area()); // 60
