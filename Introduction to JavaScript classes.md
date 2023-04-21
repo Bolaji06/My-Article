@@ -13,7 +13,7 @@ JavaScript classes are special type of function that serves as a template for cr
 JavaScript class can be declared and expressed just like a function.
 
 ```javascript
-// declared class
+// using declared class
 class MyClass {
     constructor(){/*...*/}
     method_1(){/*...*/}
@@ -21,7 +21,7 @@ class MyClass {
 }
 
 
-// expressed class
+// using expressed class
 const MyClass = class {
    constructor(){/*...*/}
     method_1(){/*...*/}
@@ -29,7 +29,7 @@ const MyClass = class {
 }
 ```
 
-For the sake of brevity, we will be sticking to the declared type throughout this post.
+You can read more about [class declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) and [class expression]([class expression - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class)). For the sake of brevity, we will be sticking to the declared type throughout this post.
 
 ***class*** - keyword use to create a class
 
@@ -43,7 +43,7 @@ A class can be created using the ``class`` keyword followed by a given class nam
 
 ### Class Body
 
-The body of a class is where all operations are carried out. It is the part that IS in between the curly braces {  }. This is where class properties, constructor and methods are defined. All these are called class members. which are defined between the braces { }.
+The body of a class is where all operations are carried out. It is the part that is in between the curly braces {  }. This is where class properties, constructor and methods are defined. All these are called class members. which are defined between the braces { }.
 
 ```javascript
 class Person { // creates a new class named 'Person'
